@@ -1,0 +1,85 @@
+:root {
+	--main-color: #98cbff;
+	--back-color: #f0f0f0;
+	--text-color: #000b27;
+}
+
+#sm-wrapper{
+	display: none;
+}
+
+*{
+	color: var(--text-color);
+}
+
+.centred{
+	text-align: center;
+}
+
+body{
+	font-family: Calibri, serif;
+
+	background-color: var(--main-color);
+
+	margin: 20px;
+
+	display: grid;
+	grid-template-columns: 310px 3fr;
+	grid-template-rows: auto auto auto;
+	grid-gap: 20px;
+	grid-template-areas: 	"contacts main-body"
+							"skills main-body"
+							"interests main-body";
+}
+
+#contacts{grid-area: contacts;}
+#skills{grid-area: skills;}
+#interests{grid-area: interests;}
+#main-body{
+	grid-area: main-body;
+	padding: 10px 40px;
+}
+
+div{
+	background-color: var(--back-color);
+	border-radius: 25px;
+
+	padding: 15px;
+}
+
+#contacts img{
+
+	width: 100%;
+	border-radius: 10px;
+}
+
+#contacts p{
+	margin: 5px 0
+}
+
+h2{
+	margin: 2px 0;
+}
+
+h3{
+	margin: 5px 0;
+}
+
+h4{
+	margin: 1px 0;
+}
+
+ul, ol{
+	margin: 2px 0 0 0;
+}
+
+svg{
+	fill: var(--text-color);
+	width: 20px;
+	height: 20px;
+}
+
+a{
+	color: var(--text-color);
+	text-decoration: none;
+}
