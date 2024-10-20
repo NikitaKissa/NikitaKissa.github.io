@@ -86,7 +86,14 @@ a{
 	text-decoration: none;
 }
 
-@media (width < 800px) {
+@media screen and (width > 1350px){
+	body{
+		width: 1350px;
+		margin: 20px auto;
+	}
+}
+
+@media screen and (width < 750px){
 	body{
 		grid-template-columns: 1fr;
 		grid-auto-rows: auto;
