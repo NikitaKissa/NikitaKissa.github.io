@@ -17,7 +17,7 @@
 }
 
 body{
-	font-family: Calibri, sans-serif;
+	font-family: "Noto Sans", sans-serif;
 
 	background-color: var(--main-color);
 
@@ -32,6 +32,10 @@ body{
 							"interests main-body";
 }
 
+p{
+	margin: 0;
+}
+
 #contacts{grid-area: contacts;}
 #skills{grid-area: skills;}
 #interests{grid-area: interests;}
@@ -40,11 +44,13 @@ body{
 	padding: 10px 40px;
 }
 
+#main-body p{padding: 0 0 0 21px}
+
 div{
 	background-color: var(--back-color);
 	border-radius: 25px;
 
-	/* filter: drop-shadow(5px 5px 5px #8cd5ff); */
+	/*box-shadow: 0 0 5px 5px #52708f;*/
 
 	padding: 15px;
 }
@@ -81,9 +87,13 @@ svg{
 	height: 20px;
 }
 
+nav a{
+	text-decoration: none;
+}
+
 a{
 	color: var(--text-color);
-	text-decoration: none;
+	text-underline-offset: 2px;
 }
 
 @media screen and (width > 1350px){
