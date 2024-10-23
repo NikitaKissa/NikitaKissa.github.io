@@ -1,3 +1,4 @@
 Allow: /
+Disallow: /SchoolDZ
 
 Sitemap: https://nikitakissa.github.io/sitemap.xml
