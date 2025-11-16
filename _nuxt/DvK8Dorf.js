@@ -1,0 +1,1 @@
+import{_ as n,c as o,o as s,a as t,J as a,K as r}from"./C4t9eHeU.js";const u={},d={class:"max-w-[910px] mx-auto p-2"};function f(l,e){return s(),o(r,null,[e[0]||(e[0]=t("header",null,null,-1)),t("main",d,[a(l.$slots,"default")]),e[1]||(e[1]=t("footer",null,null,-1))],64)}const c=n(u,[["render",f]]);export{c as default};
